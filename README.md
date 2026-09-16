@@ -1,7 +1,7 @@
 ﻿# __Example: *ism330is_datalog_i2c*__
 
 
-How to use part ISM330IS API.
+How to use the ISM330IS part API.
 
 It illustrates it by getting the values of the accelerometer (in mg) and gyroscope (in mdps) and displaying them on a terminal.
 
@@ -10,11 +10,11 @@ It illustrates it by getting the values of the accelerometer (in mg) and gyrosco
 
 __Initialization phase__: At main program start, the `mx_system_init()` function is called. It initializes the peripherals, nonvolatile memory (such as flash memory, NVM, or external memories), MPU regions (if applicable), the system clock, and the SysTick.
 
-The following __example steps__ are executed:
+The application executes the following __example steps__:
 
 __Step 1__: Initializes and enables accelerometer and gyroscope features of ISM330IS
 
-__Step 2__: Gets the values of the accelerometer (in hg) and gyroscope (in mdps) and displays them on a terminal
+__Step 2__: Gets the values of the accelerometer (in mg) and gyroscope (in mdps) and displays them on a terminal
 
 __End of example__: It is an endless example that loops infinitely on step 2
 
@@ -82,7 +82,7 @@ No specific debug tips.
 
 ## __6. See Also__
 
-More information about ISM330IS part driver can be found in the [ISM330IS Part Driver](https://dev.st.com/stm32cube-docs/part-drivers-ism330is/1.0.0/en/index.html)
+More information about ISM330IS part driver can be found in the [ISM330IS Part Driver](https://dev.st.com/stm32cube-docs/part-drivers-ism330is/1.1.0/en/index.html)
 
 More information about the STM32 ecosystem can be found in the [STM32 MCU Developer Zone](https://www.st.com/content/st_com/en/stm32-mcu-developer-zone.html).
 
